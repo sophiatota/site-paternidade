@@ -80,6 +80,7 @@ a{
     letter-spacing: 13px;
     /*muda o espaçamento da letra!*/
     text-align: center;
+    
 }
 
 .subtitulo{
@@ -101,7 +102,7 @@ a{
     padding: 8px 12px;
     background-color: #88b1c7;
     border: 1px solid #88b1c7;
-    border-radius: 5px;
+    border-radius: 0 10px 20px 30px;
     text-decoration: none;
     text-align: center;
 }
@@ -150,3 +151,24 @@ a{
     color: cornsilk;
   
 }
+
+strong{
+            border: 1px dashed  #205975;;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            color: bisque;
+            text-align: center;
+            margin: 200px 200px 300px 600px;
+            
+            
+        }
+
+#imagem1{
+            
+            border: 5px groove rgb(153, 177, 234);
+            padding: 50px 15px px;
+            text-align: center;
+            margin: 20px 30px 40px 200px;
+            box-sizing: content-box;
+            width: 500px;
+        }
