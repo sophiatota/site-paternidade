@@ -57,6 +57,19 @@ a{
     /*deixa + perto*/
 }
 
+#h1{
+     color: cornsilk;
+    font-weight: 1000;
+    /*text-align: center;*/
+    text-shadow: 4px 4px 2px #2a93c7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin-bottom: 10px;
+    /*deixa + perto*/
+}
+
+
+
 .etiqueta{
     /*GUIA*/
     color: cornsilk;
