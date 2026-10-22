@@ -68,7 +68,9 @@ a{
     /*deixa + perto*/
 }
 
-
+#texto{
+    color: cornsilk;
+}
 
 .etiqueta{
     /*GUIA*/
@@ -130,4 +132,21 @@ a{
     /*box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);*/
     border-left: 5px solid rgb(26, 25, 102);
     margin: 0 20px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(26, 25, 102);
+    text-align: center;
+}
+.rodape address{
+    font-size: normal;
+    color: cornsilk;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: cornsilk;
+  
 }
