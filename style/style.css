@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #88b1c7;
+    color: rgb(0, 0, 0);
+    /*a fonte só vai aparecer se no computador tiver instalado*/
+    font-family: Arial, Helvetica,sans-serif ;
+    font-size: 16px;
+    /*se a arial não tiver instalda a outra vai ser,*/
+    /*line-height: 9.5;*/
+}
+
+h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: cornsilk;
+}
+h3{
+    font-size: 20px;
+}
+a{
+    color: cornsilk;
+    
+}
+
+.container{
+    width: 100%;
+    /*largura*/
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.cabecalho{
+    /*parte cima azul*/
+    background-color: #205975;
+    color: cornsilk;
+    padding: 10px 10px;
+    /*sequencia*/
+    text-align: center;
+    font-size: 13px;
+    
+}
+.cabecalho h1{
+    /*seletor decendente*/
+    /*titulo*/
+    color: cornsilk;
+    font-weight: 1000;
+    /*text-align: center;*/
+    text-shadow: 4px 4px 2px #2a93c7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 10px;
+    /*deixa + perto*/
+}
+
+.etiqueta{
+    /*GUIA*/
+    margin-bottom: 10px;
+    color: cornsilk;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 13px;
+    /*muda o espaçamento da letra!*/
+    text-align: center;
+}
+
+.subtitulo{
+    max-width: 930px;
+    text-align: center;
+    color: cornsilk;
+
+}
+
+.menu-paginas li{
+    /*display: block;*/
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #88b1c7;
+    border: 1px solid #88b1c7;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
