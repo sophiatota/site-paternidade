@@ -14,7 +14,7 @@ body{
 }
 
 h2{
-    font-size: 38px;
+    font-size: 25px;
     margin-bottom: 10px;
     color: cornsilk;
 }
@@ -52,14 +52,13 @@ a{
     /*text-align: center;*/
     text-shadow: 4px 4px 2px #2a93c7;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 75px;
     margin-bottom: 10px;
     /*deixa + perto*/
 }
 
 .etiqueta{
     /*GUIA*/
-    margin-bottom: 10px;
     color: cornsilk;
     font-size: 13px;
     font-weight: bold;
@@ -90,4 +89,32 @@ a{
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+}
+
+/*parde mais clara do site*/
+.secao{
+    padding: 30px 0;
+}
+
+.titulo-secao{
+    margin-bottom: 30px;
+    padding-left: 12px;
+    border-left: 5px solid rgb(26, 25, 102);
+    font-size: 25px;
+}
+
+.grade-cards {
+    display: grid;
+    gap: 20px; /* ESPAÇO ENTRE OS CARDS */
+}
+
+.card{
+    padding: 24px;
+    background-color: cornsilk;
+    /*border: 1px solid crimson;*/
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(1, 0, 0, 0.749);
+    /*box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);*/
+    border-left: 5px solid rgb(26, 25, 102);
+    margin: 0 20px;
 }
